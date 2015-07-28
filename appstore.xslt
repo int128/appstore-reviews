@@ -16,8 +16,11 @@
     <xsl:attribute name="updated">
       <xsl:value-of select="normalize-space(i:TextView[3]/i:SetFontStyle/text())" />
     </xsl:attribute>
+    <xsl:attribute name="version">
+      <xsl:value-of select="normalize-space(i:TextView[4]/i:SetFontStyle/text())" />
+    </xsl:attribute>
     <xsl:attribute name="size">
-      <xsl:value-of select="normalize-space(i:TextView[5]/i:SetFontStyle/text())" />
+      <xsl:value-of select="normalize-space(i:TextView[6]/i:SetFontStyle/text())" />
     </xsl:attribute>
   </xsl:template>
 

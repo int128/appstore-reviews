@@ -30,7 +30,7 @@ Output will be like following.
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
-<app xmlns:i="http://www.apple.com/itms/" name="Inbox by Gmail - a new email app that works for you" category="Category: Productivity" updated="Updated Jul 15, 2015" size="© 2014, Google Inc">
+<app xmlns:i="http://www.apple.com/itms/" name="Inbox by Gmail - a new email app that works for you" category="Category: Productivity" updated="Updated Jul 15, 2015" version="Current Version: 1.3.4" size="70.0 MB">
   <review title="..." stars="2" author="..." version="Version 1.3.4" date="Jul 26, 2015" id="viewVote12345678">...</review>
 </app>
 ```
